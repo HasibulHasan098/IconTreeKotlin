@@ -10,6 +10,7 @@
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Compose" src="https://img.shields.io/badge/Jetpack%20Compose-ready-4285F4?logo=jetpackcompose&logoColor=white">
   <img alt="Icons" src="https://img.shields.io/badge/icons-946-orange">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
   <img alt="Offline" src="https://img.shields.io/badge/network-none-success">
 </p>
 
@@ -145,3 +146,7 @@ scripts/               registry generator
 - Animations are parsed once per icon and cached; recoloring is a dynamic property rather than a JSON rewrite.
 - Rendering uses `RenderMode.HARDWARE`.
 - Looping many icons at once is still real drawing work. Prefer `Static`, `OnClick` or `Hover` in large grids, and test performance in a release build.
+
+## License
+
+The library code is released under the [MIT License](LICENSE).
