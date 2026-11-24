@@ -47,7 +47,7 @@ dependencyResolutionManagement {
 
 // app/build.gradle.kts
 dependencies {
-    implementation("com.github.HasibulHasan098.IconTreeKotlin:icon-tree-animate:0.2.6")
+    implementation("com.github.HasibulHasan098.IconTreeKotlin:icon-tree-animate:1.0.0")
 }
 ```
 

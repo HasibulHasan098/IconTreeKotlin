@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.icontree"
-version = "0.2.6" // keep in sync with ../package.json
+version = "1.0.0" 
 
 // The icon JSON files live once, in the repo-root icons/ folder. They are
 // copied into the library's assets at build time so the AAR ships the full set.
